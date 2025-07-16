@@ -13,6 +13,13 @@
 
 ---
 
+## 🖼️ Preview
+
+![DeployTrail Dashboard](./docs/deploytrail-screenshot.png)
+
+
+---
+
 ## 🧰 Stack
 - **Backend:** Python 3.11 + FastAPI + SQLModel + SQLite
 - **Frontend:** React + Vite + Axios + Tailwind CSS
