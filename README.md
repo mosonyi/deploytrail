@@ -1,6 +1,6 @@
 # DeployTrail
 
-**DeployTrail** is a lightweight DevOps dashboard that tracks application deployments by app, environment, version, and time. It consists of a FastAPI backend and a Vite + React frontend, optimized for development in Docker.
+**DeployTrail** is a lightweight DevOps dashboard that tracks application deployments by app, environment, version, and time. It consists of a FastAPI backend and a Vite + React frontend styled with Tailwind CSS, optimized for development in Docker.
 
 ---
 
@@ -9,13 +9,13 @@
 - Highlight mismatched versions
 - Click to view full deployment history per app
 - Delete individual deployment entries
-- Fast live-reload development workflow
+- Fast live-reload development workflow with Tailwind styling
 
 ---
 
 ## 🧰 Stack
 - **Backend:** Python 3.11 + FastAPI + SQLModel + SQLite
-- **Frontend:** React + Vite + Axios
+- **Frontend:** React + Vite + Axios + Tailwind CSS
 - **Containerized:** Docker + Docker Compose
 
 ---
@@ -70,7 +70,7 @@
 ├── api/              # FastAPI backend
 │   ├── main.py       # Main app file
 │   └── ...
-├── frontend/         # React + Vite frontend
+├── frontend/         # React + Vite + Tailwind frontend
 │   ├── main.jsx
 │   ├── config.json   # API URL config
 │   └── ...
